@@ -1,10 +1,24 @@
-import NameInput from "./components/nameInput/NameInput";
-
+import GameList from "./components/gameList/GameList";
 const App = () => {
 
-  const print = (e) => {
-    console.log(e)
-  }
+  let obj = [
+    {
+      name: 'Mario',
+      score: 0
+    },
+    {
+      name: 'Luisa',
+      score: 2
+    },
+    {
+      name: 'Gianni',
+      score: 5
+    },
+    {
+      name: 'Claudio',
+      score: 1
+    },
+  ]
 
   return (
     <div>
